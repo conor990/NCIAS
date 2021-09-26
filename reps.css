@@ -1,0 +1,288 @@
+body {
+	padding:0;
+	margin:0;
+	font-family:helvetica , sans-serif;
+}
+
+/* the nav bar */
+
+li {
+	float:right;
+	padding:20px;
+	font-size:25px;
+	list-style:none;
+}
+li a {
+	text-decoration:none;
+	color:#235715;
+}
+li{
+	margin-right:20px;
+}
+a:hover {
+	color:#9e1313;
+}
+.current{
+	color:#571515;
+}
+.current:hover{
+	color:#9e1313;
+}
+
+
+/*the logo*/
+
+.logo {
+	float:left;
+	height:55px;
+	width:140px;
+	margin-left:40px;
+}
+
+
+/*committee page background*/
+
+.repsimage{
+	height:200px;
+	width:100%;
+	float:left;
+	margin:auto;
+	margin-top:60px;
+	background-image:url("repimage.jpg");
+}
+.repstext {
+	text-align:center;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size:60px;
+	text-shadow:1px 1px white;
+	margin-top:20px;
+}
+
+
+/* committee member pictures */
+
+.comm1{
+	float:left;
+	width:500px;
+	margin-left:170px;
+	margin-top:150px;
+}
+.comm2{
+	float:right;
+	width:280px;
+	margin-right:170px;
+	margin-top:350px;
+}
+.comm3{
+	float:left;
+	width:280px;
+	margin-left:170px;
+	margin-top:200px;
+}
+.comm4{
+	float:right;
+	width:280px;
+	margin-left:220px;
+	margin-top:200px;
+	margin-right:170px;
+}
+.comm5{
+	float:left;
+	width:280px;
+	margin-left:170px;
+	margin-top:200px;
+}
+.comm6{
+	float:right;
+	width:280px;
+	margin-right:170px;
+	margin-top:200px;
+}
+.comm7{
+	float:left;
+	width:280px;
+	margin-left:170px;
+	margin-top:200px;
+	margin-right:150px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+	
+.logo{
+	width:180px;
+	height:65px;
+	margin-left:200px;
+	position:absolute;
+}
+
+.homeword{
+	margin-left:115px;
+}
+
+li{
+	padding:5px;
+	font-size:20px;
+}
+
+nav{
+	position:absolute;
+	top:85px;
+	
+}
+
+.repsimage{
+	margin-top:180px;
+}
+
+
+.comm1{
+	width:90%;
+	margin-left:30px;
+}
+.comm2{
+	width:90%;
+	margin-top:80px;
+	margin-right:20px;
+}
+.comm3{
+	width:90%;
+	margin-left:30px;
+	margin-right:20px;
+	margin-top:80px;
+}
+.comm4{
+	width:90%;
+	margin-top:80px;
+	margin-right:20px;
+}
+.comm5{
+	width:90%;
+	margin-left:30px;
+	margin-top:80px;
+}
+.comm6{
+	width:90%;
+	margin-right:20px;
+	margin-top:80px;
+}
+.comm7{
+	width:90%;
+	margin-left:30px;
+	margin-top:80px;
+}
+
+	
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 420px){
+
+
+.logo{
+	margin-left:110px;
+	position:relative;
+	top:-30px;
+}
+
+li{
+	font-size:16px;
+	padding:5px;
+	margin-right:40px;
+}
+
+.about{
+	margin-right:30px;
+}
+
+nav {
+	position:relative;
+	top:85px;
+}
+
+
+.homeword{
+	margin-left:15px;
+}
+
+
+.repsimage{
+	margin-top:65px;
+}
+
+.postsdiv{
+	margin-left:-50px;
+}
+
+}
+
+
+
+
+/*Iphone 6 , 7 and 8*/
+@media only screen and (max-width: 380px){
+	li{
+		margin-right:15px;
+		margin-left:15px;
+	}
+	
+	
+	.logo{
+		margin-left:100px;
+	}
+}
+
+
+
+
+
+/*moto g4 and galaxy s5*/
+@media only screen and (max-width: 365px){
+	li{
+		margin-right:20px;
+		margin-left:0px;
+	}
+	
+	
+	.logo{
+		margin-left:100px;
+	}
+}
+
+
+
+
+
+
+/*iphone se & 5*/
+@media only screen and (max-width: 325px){
+
+.logo{
+	margin-left:70px;
+}
+
+
+li{
+	font-size:14px;
+	padding:5px;
+	margin-right:15px;
+}
+}
